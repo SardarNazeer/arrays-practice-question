@@ -29,3 +29,24 @@ for(let val of items){
     document.write('value after discount' + "=" + " " + items[i] +  '<br>')
     i++;
 }
+
+
+// q3) Create an array to store companies ["bloomberg","microsoft","uber","google","ibm","netflix"]
+
+var companies = ["bloomberg","microsoft","uber","google","ibm","netflix"];
+console.log(companies);
+
+// a) remove the first company name 
+
+var updatedCompanies = companies.shift();
+console.log(companies);
+
+// b) remove uber and add ola in its place 
+
+var updatedCompanie = companies.splice(1,1,'ola');
+console.log(companies);
+
+// c) add amazon at the end 
+
+var updatedCompani = companies.push('amazon');
+console.log(companies);
